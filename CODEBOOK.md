@@ -48,26 +48,26 @@ Where there are 30 subjects which doing 6 activities and mesured by 66 features.
 	All features have been rename to below format.
 	[domain][sensor]_[measurement type]_[axial signals]
 
-	..* ```domain```
-	...* Freq - Frequency domain signal
-	...* Time - Time domain Signal
+	* ```domain```
+		* Freq - Frequency domain signal
+		* Time - Time domain Signal
 
-	..* ```sensor```
-	...* Acc - acceleratometer
-	...* Gyro - gyroscope
-	...* Body - Body Acceleration Signal
-	...* Gravity - Gravity Acceleration Signal
-	...* Jerk - jerk signals
-	...* Mag - magnitude of these three-dimensional signals were calculated using the Euclidean norm 
+	* ```sensor```
+		* Acc - acceleratometer
+		* Gyro - gyroscope
+		* Body - Body Acceleration Signal
+		* Gravity - Gravity Acceleration Signal
+		* Jerk - jerk signals
+		* Mag - magnitude of these three-dimensional signals were calculated using the Euclidean norm 
 
-	..* ```mesurement type```
-	...* mean - mean
-	...* std - standard deviation
+	* ```mesurement type```
+		* mean - mean
+		* std - standard deviation
 
-	..* ```axial signals```
-	...* X
-	...* Y
-	...* Z
+	* ```axial signals```
+		* X
+		* Y
+		* Z
 
 	For example: TimeBodyAccJerk_mean_Y, FreqBodyAccMag_std
 

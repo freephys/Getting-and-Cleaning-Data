@@ -24,9 +24,9 @@ Here are the data for the project:
 
 ### PROJECT'S FILES
 This repository contain:
-..* run_analysis.R
-..* README.md
-..* CODEBOOK.md
+* run_analysis.R
+* README.md
+* CODEBOOK.md
 
 ### INSTRUCTIONS
 1.	Please do make sure user have to install reshape2 package before start used the code.
