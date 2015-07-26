@@ -84,13 +84,13 @@ names(extractData) <- gsub("^t","Time",names(extractData))
 
 names(extractData) <- gsub("^f","Freq",names(extractData))
 
-names(extractData) <- gsub("\\.","",names(extractData))
+names(extractData) <- gsub("\\.\\.\\.", "_", names(extractData))
 
-names(extractData) <- gsub("\\$","_",names(extractData))
+names(extractData) <- gsub("\\.\\.", "", names(extractData))
+
+names(extractData) <- gsub("\\.","_",names(extractData))
 
 names(extractData) <- gsub("\\(\\)","",names(extractData))
-
-names(extractData) <- gsub("-","",names(extractData))
 
 names(extractData) <- gsub("BodyBody","Body",names(extractData))
 
