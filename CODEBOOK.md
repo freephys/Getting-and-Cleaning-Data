@@ -16,21 +16,21 @@ In order to get the tidy dataset, with this folder attached run_analysis.R
 Tidy Dataset is created by running ```run_analysis.R```
 
 The Dataset is combining data from the file list below:
-..* 'UCI HAR Dataset/train/X_train.txt': Training set.
+* 'UCI HAR Dataset/train/X_train.txt': Training set.
 
-..* 'UCI HAR Dataset/train/y_train.txt': Training labels (The activity column).
+* 'UCI HAR Dataset/train/y_train.txt': Training labels (The activity column).
 
-..* 'UCI HAR Dataset/test/X_test.txt': Test set.
+* 'UCI HAR Dataset/test/X_test.txt': Test set.
 
-..* 'UCI HAR Dataset/test/y_test.txt': Test labels (The activity column).
+* 'UCI HAR Dataset/test/y_test.txt': Test labels (The activity column).
 
-..* 'UCI HAR Dataset/test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample.
+* 'UCI HAR Dataset/test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample.
 
-..* 'UCI HAR Dataset/train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample.
+* 'UCI HAR Dataset/train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample.
 
-..* 'UCI HAR Dataset/features.txt': List of all features.
+* 'UCI HAR Dataset/features.txt': List of all features.
 
-..* 'UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
+* 'UCI HAR Dataset/activity_labels.txt': Links the class labels with their activity name.
 
 All the data above combine. Than it will only extract Subject, Activity, Mean ```mean()``` and Standard Deviation ```std()``` data. 
 After that, all the name columnes being rename in order to give more descriptive name.
@@ -48,28 +48,28 @@ Where there are 30 subjects which doing 6 activities and mesured by 66 features.
 	All features have been rename to below format.
 	[domain][sensor]_[measurement type]_[axial signals]
 
-	* ```domain```
-		* Freq - Frequency domain signal
-		* Time - Time domain Signal
+* ``` domain ```
+	* Freq - Frequency domain signal
+	* Time - Time domain Signal
 
-	* ```sensor```
-		* Acc - acceleratometer
-		* Gyro - gyroscope
-		* Body - Body Acceleration Signal
-		* Gravity - Gravity Acceleration Signal
-		* Jerk - jerk signals
-		* Mag - magnitude of these three-dimensional signals were calculated using the Euclidean norm 
+* ``` sensor ```
+	* Acc - acceleratometer
+	* Gyro - gyroscope
+	* Body - Body Acceleration Signal
+	* Gravity - Gravity Acceleration Signal
+	* Jerk - jerk signals
+	* Mag - magnitude of these three-dimensional signals were calculated using the Euclidean norm 
 
-	* ```mesurement type```
-		* mean - mean
-		* std - standard deviation
+* ```mesurement type```
+	* mean - mean
+	* std - standard deviation
 
-	* ```axial signals```
-		* X
-		* Y
-		* Z
+* ```axial signals```
+	* X
+	* Y
+	* Z
 
-	For example: TimeBodyAccJerk_mean_Y, FreqBodyAccMag_std
+For example: TimeBodyAccJerk_mean_Y, FreqBodyAccMag_std
 
 ## Notes
 The are fixes being done on features label. ```BodyBody``` is fixed to ```Body``` only. Example: ```fBodyBodyGyroMag``` rename to ```fBodyGyroMag```
